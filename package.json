@@ -2,7 +2,9 @@
   "name": "spunge",
   "version": "1.0.2",
   "description": "A simple spongebob-case application",
-  "files": ["*.js"],
+  "files": [
+    "*.js"
+  ],
   "scripts": {
     "build": "./node_modules/.bin/tsc cli.ts",
     "test": "npm run build && echo \"You should have a look at PHP!\" | node cli.js"

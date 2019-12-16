@@ -17,7 +17,7 @@ function main(is: InputSource) {
     is.on('line', line => {
         is.close() // exit after reading one line
         if (line.length > 0)
-            console.log(sponge(line.toLowerCase(), SpecialSponges))
+            console.log(sponge(line, SpecialSponges))
     })
 }
 
