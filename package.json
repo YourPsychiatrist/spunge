@@ -1,11 +1,11 @@
 {
   "name": "spunge",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple spongebob-case application",
-  "main": "index.js",
+  "files": ["*.js"],
   "scripts": {
-    "build": "./node_modules/.bin/tsc index.ts",
-    "test": "npm run build && echo \"You should have a look at PHP!\" | node index.js"
+    "build": "./node_modules/.bin/tsc cli.ts",
+    "test": "npm run build && echo \"You should have a look at PHP!\" | node cli.js"
   },
   "keywords": [
     "meme",
@@ -18,5 +18,8 @@
   },
   "devDependencies": {
     "typescript": "^3.7.3"
+  },
+  "bin": {
+    "spunge": "./cli.js"
   }
 }

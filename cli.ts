@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {
     Interface as InputSource,
     createInterface as usingInput
