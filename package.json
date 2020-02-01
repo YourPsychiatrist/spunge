@@ -1,6 +1,6 @@
 {
   "name": "spunge",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A simple spongebob-case application",
   "files": [
     "*.js"
@@ -16,9 +16,12 @@
   "author": "Niklas Vest",
   "license": "GPL-3.0",
   "dependencies": {
-    "@types/node": "^12.12.18"
+    "@types/node": "^12.12.18",
+    "clipboardy": "^2.1.0",
+    "yargs": "^15.1.0"
   },
   "devDependencies": {
+    "@types/yargs": "^15.0.3",
     "typescript": "^3.7.3"
   },
   "bin": {
