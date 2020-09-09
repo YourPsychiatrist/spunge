@@ -33,4 +33,4 @@ spunge Imma fuken do it again
 ```
 
 ---
-Disclaimer: I am not responsible for an occasional reactor meltdown that is due to an instability in this npm package.
+Disclaimer: I am not responsible for an occasional reactor meltdown due to an instability in this npm package.
