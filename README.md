@@ -10,7 +10,7 @@ npm i -g spunge
 and watch the sponge go brrrrr:
 
 ```
-spunge Sponging text
+spunge this is how it works
 #> ThiS iS HOw iT woRKS
 
 spunge < /etc/passwd
